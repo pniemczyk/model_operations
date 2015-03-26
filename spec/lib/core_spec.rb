@@ -124,9 +124,7 @@ describe ModelOperations::Core do
         expect(subject.send(:bind_object)).to eq(:bind_object)
       end
     end
-
-    it '.rescue_from' do
-    end
+    it '.rescue_from'
   end
 
   context 'CRUD' do
